@@ -7,3 +7,6 @@ def batch_badge_creator(names)
   names.each{|a| new_list.push(badge_maker(a))}
   return new_list
 end
+
+def assign_rooms()
+  
